@@ -23,7 +23,8 @@ const App = () => (
         <Route path="/" exact Component={Home} />
         <Route path="/vision" exact Component={Vision} />
         <Route path="/team" exact Component={Team} />
-        <Route path="/sponsors" exact Component={Sponsors} />
+        {/* <Route path="/sponsors" exact Component={Sponsors} /> */}
+        <Route path="/sponsors" exact Component={Home} />
         <Route path="/learning" exact Component={Learning} />
         <Route path="/sustainability" exact Component={Sustainability} />
       </Routes>
